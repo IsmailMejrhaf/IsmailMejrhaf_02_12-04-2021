@@ -1,0 +1,53 @@
+@media screen and (min-width: 1024px) {
+  #activites {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  /* Modification header avec logo à côté de s'inscrire et hébergements et activités en dessous */
+  main {
+    width: auto;
+    margin: 0;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  /* Formulaire de recherche */
+  .block-searche {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Partie hébergements */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  .room-container-bloc {
+    width: 21vw;
+    height: 15vw;
+  }
+
+  #title-heberg {
+    margin-left: 30px;
+  }
+  /* Partie activités */
+  .activite-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #activite h2 {
+    margin-left: 20px;
+  }
+}
