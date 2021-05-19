@@ -4,7 +4,7 @@
     margin: 0 20px 0 20px;
   }
 
-  /* GENERAL */
+  /* ------------------GENERAL-------------------- */
   h2 {
     font-size: 1.8vw;
   }
@@ -17,7 +17,11 @@
     font-size: 1.5vw;
   }
 
-  /* Partie filtres */
+  #title-heberg {
+    font-weight: bold;
+  }
+
+  /* -----------------Partie filtres----------------- */
   .title-section {
     width: 100%;
   }
@@ -27,12 +31,12 @@
     margin-right: 0.5rem;
   }
 
-  /* Partie hébergements */
+  /* ---------------hébergements------------------ */
+
   main {
     flex-direction: column-reverse;
   }
 
-  /* ASIDE */
   aside {
     width: auto;
     margin-bottom: 50px;
@@ -60,7 +64,6 @@
     width: 27vw;
   }
 
-  /* ARTICLE */
   article {
     width: 100%;
   }
@@ -83,5 +86,354 @@
 
   #activites {
     padding: 0 20px 0 20px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  h2 {
+    font-size: 3vw;
+  }
+
+  .activites-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150vw;
+    align-items: center;
+  }
+
+  .activites-container-tall {
+    height: 40vw;
+    width: 100%;
+  }
+
+  .activites-container-tall img {
+    height: 33vw;
+  }
+
+  .activites-container-small {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .activites-container-small-pomegues {
+    height: 25vw;
+    width: 50%;
+    margin-right: 3vw;
+  }
+
+  .pomegues-pic {
+    height: 18vw;
+  }
+
+  .activites-container-small-frioul {
+    height: 25vw;
+    width: 50%;
+  }
+
+  .activites-container-small-notredame {
+    height: 25vw;
+    width: 50%;
+    margin-right: 3vw;
+  }
+
+  .notredame-pic {
+    height: 18vw;
+  }
+
+  .activites-container-small-longchamp {
+    height: 25vw;
+    width: 50%;
+  }
+
+  .longchamp-pic {
+    height: 18vw;
+  }
+
+  #activites h2 {
+    padding-left: 20px;
+  }
+
+  .activites-container-titles {
+    font-size: 2.2vw;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .footer-list-title {
+    font-size: 2vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+  footer a {
+    font-size: 1.7vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav {
+    margin-top: 25px;
+  }
+
+  #logo {
+    margin-left: 20px;
+    align-self: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .navbar {
+    display: inline;
+    height: 50px;
+  }
+
+  .menu-list {
+    display: flex;
+    border-bottom: solid 2.5px #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu-list-item {
+    width: 50%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .menu-list-item:hover {
+    border-top: none;
+    color: var(--primary);
+    border-bottom: solid 2.5px var(--primary);
+    margin-bottom: -13px;
+    padding-top: 0;
+  }
+
+  .link-3 {
+    position: absolute;
+    top: 39px;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  /* -----------------Formulaire de recherche------------------- */
+  h1 {
+    margin: 20px 0 10px 0;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .block-searche {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+  }
+
+  .btn-searche {
+    visibility: hidden;
+    display: none;
+  }
+
+  .btn-phone {
+    visibility: visible;
+    color: #fff;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 15px;
+    height: 41px;
+    width: 50px;
+    margin-left: -10px;
+    cursor: pointer;
+    display: inline;
+  }
+
+  .catch-phrase {
+    font-size: 1rem;
+  }
+  .placeholder {
+    width: 60%;
+    border-right: none;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    padding: 0;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  aside {
+    border-radius: 0;
+  }
+
+  .category-container {
+    flex-direction: column;
+  }
+
+  .category-container-bloc {
+    width: 90%;
+    height: 32vw;
+  }
+
+  .category-container-bloc img {
+    margin-right: 15px;
+  }
+
+  .category-title {
+    margin: 25px 15px 0 20px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  aside p {
+    font-size: 3.5vw;
+  }
+
+  .category-container-stars-note {
+    font-size: 2.2vw;
+    margin-top: 12vw;
+  }
+
+  article {
+    margin: 0;
+  }
+
+  .room-container-bloc {
+    width: 90%;
+    height: 47vw;
+    box-shadow: 0px 1px 24px 8px rgb(12 11 11 / 27%);
+  }
+
+  .room-container-bloc-description img {
+    height: 28vw;
+  }
+
+  article p {
+    font-size: 3.5vw;
+  }
+
+  .room-stars-note {
+    font-size: 3.2vw;
+  }
+
+  .show-more {
+    font-size: 4vw;
+    margin-left: 30px;
+  }
+
+  /*---------------------PARTIE ACTIVITES-------------------------- */
+
+  #activites {
+    height: 350vw;
+    padding: 0;
+  }
+
+  #activites h2 {
+    margin-left: 20px;
+  }
+
+  .activites-container {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .activites-container-tall {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .activites-container-tall img {
+    height: 75%;
+  }
+
+  .activites-container-small-pomegues {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .pomegues-pic {
+    height: 75%;
+  }
+
+  .activites-container-small-frioul {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .frioul-pic {
+    height: 75%;
+  }
+
+  .activites-container-small-notredame {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .notredame-pic {
+    height: 75%;
+  }
+
+  .activites-container-small-longchamp {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .longchamp-pic {
+    height: 75%;
+  }
+
+  .activites-container-titles {
+    font-size: 4vw;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
+  /*-------------------------FOOTER--------------------------- */
+  .footer-news {
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 78rem;
+  }
+
+  .footer-list-title {
+    font-size: 5.5vw;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-list-item {
+    font-size: 5vw;
   }
 }

@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./Css/style.css">
-        <link rel="stylesheet" href="./Css/styles-tablette.css">
         <link rel="stylesheet" href="./Css/styles-mobile.css">
+        <link rel="stylesheet" href="./Css/styles-tablette.css">
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap"
             rel="stylesheet">
@@ -14,17 +14,21 @@
     <body>
         <!--Menu-->
         <header>
-            <nav> <img id="logo" src="Images/logo/Reservia.svg" alt="logo du
+            <nav>
+                <img id="logo" src="Images/logo/Reservia.svg" alt="logo du
                     site">
                 <ul>
+                    <div class="menu-list">
+                        <li>
+                            <a class="link menu-list-item" href="#title-heberg">Hébergements</a>
+                        </li>
+                        <li>
+                            <a class="link menu-list-item" href="#activite">Activités</a>
+                        </li>
+                    </div>
+
                     <li>
-                        <a class="link" href="">Hébergements</a>
-                    </li>
-                    <li>
-                        <a class="link" href="">Activité</a>
-                    </li>
-                    <li>
-                        <a class="link link-3" href="">S'inscrire</a>
+                        <a class="link link-3" href="#">S'inscrire</a>
                     </li>
                 </ul>
             </nav>
@@ -36,13 +40,15 @@
             <h1>
                 Trouvez votre hébergement pour des vacances de rêve
             </h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <p class="catch-phrase">En plein centre ville ou en pleine nature</p>
             <form><span class="icon-marker">
                     <i class="fas fa-map-marker-alt"></i>
                 </span>
                 <input type="text" placeholder="Marseille, France"
                     class="placeholder" />
-                <button class="btn-searche">Rechercher</button></form>
+                <button class="btn-searche">Rechercher</button>
+                <button class="btn-phone" type="submit"><i
+                        class="fas fa-search"></i></button></form>
 
             <div class="filters">
                 <h2 class="title-section">Filtres</h2>
@@ -202,7 +208,7 @@
             <!--Catégories populaire-->
             <aside>
                 <div class="category-populaire">
-                    <h2>Les plus populaires</h2>
+                    <h2 class="category-title">Les plus populaires</h2>
                     <span id="aside-title_icon"><i class="fas fa-chart-line"></i></span>
                 </div>
                 <div class="category-container">
@@ -212,7 +218,7 @@
                                 src="./Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 alt="Hôtel Le soleil du matin">
                             <div class="category-container-description">
-                                <h3>Hôtel Le soleil du <br>matin</h3>
+                                <h3>Hôtel Le soleil du matin</h3>
                                 <p>Nuit à partir de 128<b>€</b></p>
                                 <div class="category-container-stars-note">
                                     <i class="fas fa-star"></i>
@@ -280,7 +286,7 @@
                 <div class="activites-container-small">
                     <div class="activites-container-small-pomegues">
                         <a href="#">
-                            <img class="pomegues-img"
+                            <img class="pomegues-pic"
                                 src="./Images//activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                 alt="Fort de Pomègues">
                             <h3 class="activites-container-titles">Fort de
@@ -289,7 +295,7 @@
                     </div>
                     <div class="activites-container-small-frioul">
                         <a href="#">
-                            <img class="frioul-img"
+                            <img class="frioul-pic"
                                 src="./Images//activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                 alt="Iles du Frioul">
                             <h3 class="activites-container-titles">Îles du
@@ -311,7 +317,7 @@
                 <div class="activites-container-small">
                     <div class="activites-container-small-notredame">
                         <a href="#">
-                            <img class="notredame-img"
+                            <img class="notredame-pic"
                                 src="./Images//activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                 alt="Notre-Dame-de-la-Garde">
                             <h3 class="activites-container-titles">Notre-Dame-de-la-Garde</h3>
@@ -319,7 +325,7 @@
                     </div>
                     <div class="activites-container-small-longchamp">
                         <a href="#">
-                            <img class="longchamp-img"
+                            <img class="longchamp-pic"
                                 src="./Images//activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                 alt="Parc Longchamp">
                             <h3 class="activites-container-titles">Parc
