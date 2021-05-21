@@ -18,7 +18,7 @@
   }
 
   #title-heberg {
-    font-weight: bold;
+    margin: 6vw 0 5vw 4vw;
   }
 
   /* -----------------Partie filtres----------------- */
@@ -72,6 +72,7 @@
 
   article {
     width: 100%;
+    background-color: transparent;
   }
 
   .room-container-bloc {
@@ -440,7 +441,7 @@
   .footer-news {
     flex-direction: column;
     padding-left: 20px;
-    margin-top: 79rem;
+    margin-top: 78rem;
   }
 
   .footer-list-title {
@@ -456,5 +457,11 @@
 
   .footer-list-item {
     font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-news {
+    margin-top: 72rem;
   }
 }
