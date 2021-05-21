@@ -19,9 +19,9 @@ body {
 :root {
   /* Pour le bleu */
   --primary: #0065fc;
-  /* Pour les backgrounds gris */
+  /* Backgrounds gris */
   --secondary: #f2f2f2;
-  /* Pour les contours */
+  /*les contours */
   --tertiary: #d9d9d9;
 }
 a {
@@ -120,6 +120,7 @@ form {
 
 .placeholder {
   font-size: 1rem;
+  font-weight: bold;
   width: 15%;
   height: 35px;
   opacity: 0.5;
@@ -237,8 +238,7 @@ article {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0px 1px 24px 8px rgba(12, 11, 11, 0.27);
-  -webkit-box-shadow: 0px 1px 24px 8px rgba(12, 11, 11, 0.27);
-  -moz-box-shadow: 0px 1px 24px 8px rgba(12, 11, 11, 0.27);
+
   margin-bottom: 30px;
   padding: 0.35em;
 }
@@ -309,8 +309,7 @@ aside {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0px 1px 24px 8px rgb(12 11 11 / 27%);
-  -webkit-box-shadow: 0px 1px 24px 8px rgb(12 11 11 / 27%);
-  -moz-box-shadow: 0px 1px 24px 8px rgba(12, 11, 11, 0.27);
+
   margin: 10px 0px 20px 0px;
   width: 22vw;
 }
@@ -354,7 +353,7 @@ aside {
   display: flex;
 }
 
-.activites-container-tall {
+.activites-container-big {
   height: 100%;
   width: 21vw;
   object-fit: cover;
@@ -363,11 +362,11 @@ aside {
   border-radius: 15px;
 }
 
-.activites-container-tall:hover {
+.activites-container-big:hover {
   transform: scale(1.05);
 }
 
-.activites-container-tall img {
+.activites-container-big img {
   object-fit: cover;
   height: 89%;
   width: 100%;
@@ -376,14 +375,14 @@ aside {
 }
 
 /* Petites images */
-.activites-container-small {
+.activites-container-mini {
   flex-direction: column;
   display: flex;
   justify-content: space-between;
 }
 
 /*Fort de Pomègues */
-.activites-container-small-pomegues {
+.activites-container-mini-pomegues {
   width: 21vw;
   height: 50%;
   -webkit-box-shadow: 2px 2px 20px rgb(230 230 230);
@@ -391,7 +390,7 @@ aside {
   border-radius: 15px;
 }
 
-.activites-container-small-pomegues:hover {
+.activites-container-mini-pomegues:hover {
   transform: scale(1.05);
 }
 
@@ -404,7 +403,7 @@ aside {
 }
 
 /* Iles du Frioul */
-.activites-container-small-frioul {
+.activites-container-mini-frioul {
   width: 21vw;
   height: 40%;
   -webkit-box-shadow: 2px 2px 20px rgb(230 230 230);
@@ -412,7 +411,7 @@ aside {
   border-radius: 15px;
 }
 
-.activites-container-small-frioul:hover {
+.activites-container-mini-frioul:hover {
   transform: scale(1.05);
 }
 
@@ -425,7 +424,7 @@ aside {
 }
 
 /* Notre Dame de la Garde */
-.activites-container-small-notredame {
+.activites-container-mini-notredame {
   width: 21vw;
   height: 45%;
   -webkit-box-shadow: 2px 2px 20px rgb(230 230 230);
@@ -433,7 +432,7 @@ aside {
   border-radius: 15px;
 }
 
-.activites-container-small-notredame:hover {
+.activites-container-mini-notredame:hover {
   transform: scale(1.05);
 }
 
@@ -446,7 +445,7 @@ aside {
 }
 
 /* Parc Longchamp */
-.activites-container-small-longchamp {
+.activites-container-mini-longchamp {
   width: 21vw;
   height: 45%;
   -webkit-box-shadow: 2px 2px 20px rgb(230 230 230);
@@ -454,7 +453,7 @@ aside {
   border-radius: 15px;
 }
 
-.activites-container-small-longchamp:hover {
+.activites-container-mini-longchamp:hover {
   transform: scale(1.05);
 }
 

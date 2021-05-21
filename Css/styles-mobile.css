@@ -4,7 +4,7 @@
     margin: 0 20px 0 20px;
   }
 
-  /* ------------------GENERAL-------------------- */
+  /* ------------------Global-------------------- */
   h2 {
     font-size: 1.8vw;
   }
@@ -29,6 +29,12 @@
   .link-filtre {
     margin-bottom: 10px;
     margin-right: 0.5rem;
+  }
+
+  /*Rencherche*/
+
+  .placeholder {
+    width: 24%;
   }
 
   /* ---------------hébergements------------------ */
@@ -110,12 +116,12 @@
     height: 33vw;
   }
 
-  .activites-container-small {
+  .activites-container-mini {
     flex-direction: row;
     width: 100%;
   }
 
-  .activites-container-small-pomegues {
+  .activites-container-mini-pomegues {
     height: 25vw;
     width: 50%;
     margin-right: 3vw;
@@ -125,12 +131,12 @@
     height: 18vw;
   }
 
-  .activites-container-small-frioul {
+  .activites-container-mini-frioul {
     height: 25vw;
     width: 50%;
   }
 
-  .activites-container-small-notredame {
+  .activites-container-mini-notredame {
     height: 25vw;
     width: 50%;
     margin-right: 3vw;
@@ -140,7 +146,7 @@
     height: 18vw;
   }
 
-  .activites-container-small-longchamp {
+  .activites-container-mini-longchamp {
     height: 25vw;
     width: 50%;
   }
@@ -228,6 +234,10 @@
   }
 
   /* -----------------Formulaire de recherche------------------- */
+
+  form {
+    margin-left: 27px;
+  }
   h1 {
     margin: 20px 0 10px 0;
   }
@@ -249,6 +259,7 @@
 
   .btn-phone {
     visibility: visible;
+    z-index: 1;
     color: #fff;
     background-color: var(--primary);
     border: none;
@@ -267,6 +278,10 @@
     width: 60%;
     border-right: none;
     border-left: none;
+  }
+
+  .footer-news {
+    margin-top: 72rem;
   }
 }
 
@@ -298,7 +313,7 @@
   }
 
   .category-title {
-    margin: 25px 15px 0 20px;
+    margin: 25px 15px 30px 20px;
     font-weight: bold;
   }
 
@@ -322,7 +337,7 @@
 
   .room-container-bloc {
     width: 90%;
-    height: 47vw;
+    height: 52vw;
     box-shadow: 0px 1px 24px 8px rgb(12 11 11 / 27%);
   }
 
@@ -360,17 +375,17 @@
     padding-right: 20px;
   }
 
-  .activites-container-tall {
+  .activites-container-big {
     width: 100%;
     height: 50vw;
     margin-bottom: 20px;
   }
 
-  .activites-container-tall img {
+  .activites-container-big img {
     height: 75%;
   }
 
-  .activites-container-small-pomegues {
+  .activites-container-mini-pomegues {
     width: 100%;
     height: 50vw;
     margin-bottom: 20px;
@@ -380,7 +395,7 @@
     height: 75%;
   }
 
-  .activites-container-small-frioul {
+  .activites-container-mini-frioul {
     width: 100%;
     height: 50vw;
     margin-bottom: 20px;
@@ -390,7 +405,7 @@
     height: 75%;
   }
 
-  .activites-container-small-notredame {
+  .activites-container-mini-notredame {
     width: 100%;
     height: 50vw;
     margin-bottom: 20px;
@@ -400,7 +415,7 @@
     height: 75%;
   }
 
-  .activites-container-small-longchamp {
+  .activites-container-mini-longchamp {
     width: 100%;
     height: 50vw;
     margin-bottom: 20px;
@@ -420,7 +435,7 @@
   .footer-news {
     flex-direction: column;
     padding-left: 20px;
-    margin-top: 78rem;
+    margin-top: 79rem;
   }
 
   .footer-list-title {
@@ -431,6 +446,7 @@
 
   .footer-container {
     padding: 0;
+    float: none;
   }
 
   .footer-list-item {
