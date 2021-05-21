@@ -365,7 +365,12 @@
     padding: 0;
   }
 
-  #activites h2 {
+  #activite {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title-activite {
     margin-left: 20px;
   }
 
