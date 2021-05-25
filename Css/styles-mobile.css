@@ -22,6 +22,7 @@
   }
 
   /* -----------------Partie filtres----------------- */
+
   .title-section {
     width: 100%;
   }
@@ -93,6 +94,22 @@
 
   #activites {
     padding: 0 20px 0 20px;
+  }
+
+  .activites-container-titles {
+    font-size: 11px;
+  }
+
+  .category-container-stars-note {
+    font-size: 1vw;
+  }
+
+  .footer-list-title {
+    font-size: 13.5px;
+  }
+
+  .footer-list-item > a {
+    font-size: 1.5vw;
   }
 }
 
@@ -223,7 +240,7 @@
     border-top: none;
     color: var(--primary);
     border-bottom: solid 2.5px var(--primary);
-    margin-bottom: -13px;
+    margin-bottom: 13px;
     padding-top: 0;
   }
 
@@ -283,6 +300,10 @@
 
   .footer-news {
     margin-top: 72rem;
+  }
+
+  .footer-list-item > a {
+    font-size: 4.5vw;
   }
 }
 
