@@ -168,6 +168,11 @@ form {
   padding-right: 20px;
 }
 
+.link-filtre:hover {
+  background-color: #f5f9ff;
+  transform: scale(1.1);
+}
+
 .item-filtre {
   color: var(--primary);
   background-color: #deebff;
