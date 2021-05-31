@@ -209,11 +209,7 @@
     margin: 0;
   }
 
-  nav {
-    margin-top: 25px;
-  }
-
-  #logo {
+  .logo {
     margin-left: 20px;
     align-self: flex-start;
     margin-bottom: 15px;
@@ -224,40 +220,32 @@
     height: 50px;
   }
 
-  .menu-list {
+  .navbar-menu {
     display: flex;
     border-bottom: solid 2.5px #f2f2f2;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 16px;
   }
 
-  .menu-list-item {
+  .navbar-menu_item {
     width: 50%;
     text-align: center;
-
-    padding: 20px;
+    padding: 0;
   }
 
-  .menu-list-item:hover {
+  .navbar-menu_item:hover {
     border-top: none;
     color: var(--primary);
     border-bottom: solid 2.5px var(--primary);
-    margin-bottom: 13px;
+    margin-bottom: -13px;
     padding-top: 0;
-    padding-bottom: 9px;
   }
 
-  .link-3 {
+  .inscription {
     position: absolute;
-    top: 39px;
+    top: 0;
     right: 0;
     margin-right: 20px;
-  }
-
-  .link-3:hover {
-    border-top: none;
-    padding-top: 0;
   }
 
   /* -----------------Formulaire de recherche------------------- */
