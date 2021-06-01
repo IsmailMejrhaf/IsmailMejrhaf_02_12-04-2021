@@ -11,6 +11,8 @@ html {
 }
 
 body {
+  margin: 0;
+  max-width: 100%;
   font-family: "raleway", sans-serif;
 }
 
@@ -341,7 +343,7 @@ aside {
 
 .activites-container {
   display: flex;
-  height: 32vw;
+
   justify-content: space-between;
   margin-bottom: 50px;
 }

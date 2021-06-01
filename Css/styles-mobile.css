@@ -5,16 +5,20 @@
   }
 
   /* ------------------Global-------------------- */
+  h1 {
+    font-size: 18px;
+  }
+
   h2 {
-    font-size: 1.8vw;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 1.7vw;
+    font-size: 13px;
   }
 
   p {
-    font-size: 1.5vw;
+    font-size: 18px;
   }
 
   #title-heberg {
@@ -93,8 +97,14 @@
     font-size: 1.2vw;
   }
 
-  #activites {
+  .show-more {
+    font-size: 15px;
+  }
+
+  .activite-respon {
     padding: 0 20px 0 20px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .activites-container-titles {
@@ -105,18 +115,26 @@
     font-size: 1vw;
   }
 
+  .footer-infos_title {
+    font-size: 12px;
+  }
+
   .footer-list-title {
     font-size: 13.5px;
   }
 
   .footer-list-item > a {
-    font-size: 1.5vw;
+    font-size: 15px;
+  }
+
+  .footer-infos_list_element {
+    font-size: 15px;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 700px) {
-  h2 {
-    font-size: 3vw;
+  h1 {
+    font-size: 18px;
   }
 
   .activites-container {
