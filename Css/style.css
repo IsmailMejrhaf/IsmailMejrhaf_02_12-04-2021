@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  margin: 0;
-  max-width: 100%;
   font-family: "raleway", sans-serif;
 }
 
@@ -476,40 +474,30 @@ aside {
 
 /*FOOTER*/
 
-.footer-news {
-  width: 100%;
+.footer-infos {
   display: flex;
-
-  background-color: #f2f2f2;
+  background-color: var(--secondary);
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.footer-list {
+.footer-infos_section {
   margin-right: 13vw;
   margin-left: 3vw;
 }
 
-.footer-list-title {
+.footer-infos_title {
+  padding-left: 40px;
   font-size: 1.2vw;
 }
 
-.footer-container {
-  display: inline-block;
-  list-style: none;
-  color: black;
+.footer-infos_list {
+  list-style-type: none;
 }
-
-.footer-list-item {
+.footer-infos_list_element {
   padding-bottom: 20px;
   font-size: 1vw;
-  color: black;
 }
-
-.footer-list-item > a {
-  color: black;
-}
-
-.footer-list-item > a:hover {
-  border: none;
+.footer-infos_list_element a:hover {
+  font-weight: bold;
 }
