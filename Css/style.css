@@ -1,4 +1,10 @@
 /*GENERAL*/
+
+@font-face {
+  font-family: "raleway";
+  src: url(../Font/Raleway-VariableFont_wght.ttf);
+}
+
 html {
   font-size: 100%;
   overflow-x: hidden;
@@ -12,6 +18,11 @@ html {
   /* Pour les contours */
   --tertiary: #d9d9d9;
 }
+
+body {
+  font-family: "raleway", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: #000;
