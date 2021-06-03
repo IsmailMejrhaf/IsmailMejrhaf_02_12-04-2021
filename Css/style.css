@@ -47,18 +47,18 @@ header img {
   margin-top: 25px;
 }
 
-/*NAVIGATION*/
+/*Menu*/
 
-.navbar {
+.menu-block {
   display: flex;
 }
 
-.navbar-menu_item {
+.menu_item {
   display: inline-block;
   padding: 40px 30px 0px 30px;
 }
 
-.navbar-menu_item:hover {
+.menu_item:hover {
   border-top: solid 2.5px var(--primary);
   padding-top: 37.5px;
   color: var(--primary);
@@ -83,7 +83,7 @@ body {
 }
 
 /*RECHERCHE*/
-.search {
+.search-block {
   margin-left: 50px;
 }
 
@@ -139,18 +139,19 @@ body {
 }
 
 /* PARTIE FILTRES */
-.filters-title {
-  margin-right: 30px;
-  font-weight: bold;
-  font-size: 1.3em;
-}
 
-.filters {
+.filters-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.filters-title {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .filters-links {

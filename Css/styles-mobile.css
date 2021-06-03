@@ -196,25 +196,25 @@
     margin-bottom: 15px;
   }
 
-  .navbar {
+  .menu-block {
     display: inline;
     height: 50px;
   }
 
-  .navbar-menu {
+  .menu-block-list {
     display: flex;
     border-bottom: solid 2.5px #f2f2f2;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .navbar-menu_item {
+  .menu_item {
     width: 50%;
     text-align: center;
     padding: 0;
   }
 
-  .navbar-menu_item:hover {
+  .menu_item:hover {
     border-top: none;
     color: var(--primary);
     border-bottom: solid 2.5px var(--primary);
@@ -234,15 +234,15 @@
     margin: 20px 0 10px 0;
   }
 
-  .search-p {
-    margin-bottom: 30px;
-  }
-
-  .search {
+  .search-block {
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 30px;
   }
+  .search-p {
+    margin-bottom: 30px;
+  }
+
   .search-form_button {
     visibility: hidden;
     display: none;
