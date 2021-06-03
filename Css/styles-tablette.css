@@ -1,64 +1,52 @@
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   #activites {
     margin-left: 50px;
     margin-right: 50px;
   }
-
-  .category-container-stars-note {
-    height: 14vw;
-    margin-top: 11px;
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  main {
+    width: auto;
+    margin: 0;
   }
 
-  .footer-infos_list_element {
-    font-size: 13px;
+  #logo {
+    margin-left: 20px;
   }
-  @media screen and (min-width: 800px) and (max-width: 1023px) {
-    main {
-      width: auto;
-      margin: 0;
-    }
 
-    #logo {
-      margin-left: 20px;
-    }
-    p {
-      font-size: 18px;
-    }
+  /* Formulaire de recherche */
+  .search {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    /* Formulaire de recherche */
-    .block-searche {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+  /* Partie hébergements */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    /* Partie hébergements */
-    main {
-      display: flex;
-      justify-content: space-between;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+  article {
+    width: 100%;
+  }
 
-    article {
-      width: 100%;
-    }
+  .article-container_bloc {
+    width: 21vw;
+    height: 15vw;
+  }
 
-    .room-container-bloc {
-      width: 21vw;
-      height: 15vw;
-    }
+  #article-title {
+    margin-left: 30px;
+  }
+  /* Partie activités */
+  .activites-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    #title-heberg {
-      margin-left: 30px;
-    }
-    /* Partie activités */
-    .activite-container {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-    #activite h2 {
-      margin-left: 20px;
-    }
+  #activites h2 {
+    margin-left: 20px;
   }
 }
